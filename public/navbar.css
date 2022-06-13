@@ -1,0 +1,274 @@
+/*----------------nav-bar-about-us-page---------------------*/
+
+.float-container {
+    border: 3px;
+    padding: 20px;
+}
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px;
+}
+
+.start-title {
+    width: 80%;
+    margin-left: 5%;
+    color: rgb(34, 53, 117);
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 5%;
+}
+
+.start-title::before {
+    content: '';
+    background-color: rgb(211, 180, 96);
+    height: 7px;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: auto;
+    display: block;
+    transform: translateY(auto);
+
+}
+
+#about-us-home p {
+    margin-left: 5%;
+    width: 80%;
+    font-size: 25px;
+    margin-top: 9%;
+}
+
+/*----------------higher-standard---------------------*/
+
+.higher-standard {
+    background-color: rgba(42, 69, 89, 1);
+    padding-top: 10px;
+}
+
+.higher-standard h2 {
+    margin-left: 10%;
+    color: rgb(211, 180, 96);
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.higher-standard p {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #fff;
+}
+.higher-standard img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/*----------------award---------------------*/
+
+.award {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#award-banner {
+    border-left: 4px solid rgb(42, 44, 155);
+
+}
+.award h3 {
+    color: rgb(211, 180, 96);
+    font-size: 42px;
+    padding-top: 30px;
+}
+
+.award p {
+    font-size: 22px;
+}
+.award a{
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*----------------nav-bar-home-care-page---------------------*/
+
+/*----------------home-page---------------------*/
+
+#home-care-home img{
+    margin-top: 5%;
+    width: 100%;
+}
+#home-care-home p {
+    margin-left: 5%;
+    width: 80%;
+    font-size: 25px;
+    margin-top: 9%;
+}
+
+
+/*----------------home-care-high-standard---------------------*/
+.home-care-higher-standard {
+    padding-top: 10px;
+    background-color: rgba(42, 69, 89, 1);
+    padding-bottom: 5%;
+}
+.home-care-higher-standard img {
+    margin-top: 3%;
+}
+
+.home-care-higher-standard h2 {
+    margin-left: 10%;
+    color: rgb(211, 180, 96);
+    margin-top: 3%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.home-care-higher-standard p {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #fff;
+}
+
+/*----------------nav-bar-resources-page---------------------*/
+
+/*----------------home-page---------------------*/
+
+
+
+/*----------------caregiving--------------------*/
+
+.caregiving {
+    padding-top: 10px;
+    background-color: rgba(42, 69, 89, 1);
+    padding-bottom: 5%;
+}
+.caregiving h2 {
+    margin-left: 10%;
+    color: rgb(211, 180, 96);
+    margin-top: 3%;
+    font-size: 40px;
+    font-weight: 600;
+}
+#p-list {
+    border: 4px solid rgb(211, 180, 96);
+}
+
+.caregiving p {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #fff;
+}
+/*----------------resources--------------------*/
+
+.resources-cator {
+    background-color: rgb(224,220,220);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.resources-cator p {
+    background-color: #fff;
+    border-radius: 5px;
+    border-top: 22px solid rgb(211, 180, 96);
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    transition-delay: 0.1s;
+}
+.resources-cator p:hover {
+    border-top: 12px solid rgb(211, 180, 96);
+
+}
+.resources-cator a {
+    text-decoration: none;
+    color: black;
+}
+#resources-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*----------------nav-bar-career---------------------*/
+
+/*----------------home-page---------------------*/
+#home-care-home .btn {
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+/*----------------career options---------------------*/
+.caregiver {
+    padding-top: 3%;
+    background-color: rgba(42, 69, 89, 1);
+    padding-bottom: 20%;
+}
+.caregiver h2 {
+    font-size: 65px;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 5%;
+    
+}
+.caregiver h2::before {
+    content: '';
+    background-color: rgb(211, 180, 96);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(95px);
+}
+.caregiver h3{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+}
+.caregiver p {
+    margin-top: 5%;
+    color: #fff;
+    font-size: 20px;
+}
+#search-button {
+    margin-top: 3%;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+/*----------------benefits---------------------*/
+
+.benefits h1{
+    margin-left: 5%;
+    color: rgb(34, 53, 117);
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 5%;
+}
+.benefits h1::before{
+    content: '';
+    background-color: rgb(211, 180, 96);
+    height: 7px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(100px);
+
+}
+.benefits p {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+    font-size: 25px;
+}
+.benefits ul {
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
