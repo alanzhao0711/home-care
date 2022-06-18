@@ -55,6 +55,12 @@ export default function AboutUs() {
             home care assistance for your loved one to be safe and healthy and
             to be a partner you can turn to for support.
           </p>
+          <a
+            href="/contact"
+            type="button"
+            class="btn btn-danger btn-lg"
+            >Contact Us</a
+          >
         </div>
         <div class="float-child">
           <img src="/images/about-us-home.jpg" alt="" />

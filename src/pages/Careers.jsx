@@ -55,7 +55,7 @@ export default function Careers() {
             care company in the industry.
           </p>
           <a
-            href="/apply-forms/apply.html"
+            href="/"
             type="button"
             class="btn btn-danger btn-lg"
             >APPLY NOW</a
